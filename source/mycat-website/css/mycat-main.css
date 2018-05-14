@@ -1,0 +1,26 @@
+/**
+created by xusihan
+站点css
+ */
+
+/* 容器 */
+/* 默认 */
+.mycat-container {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+}
+
+.bg-wrap{
+    background-image: url(../img/test.png);
+    background-size:cover;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 400px;
+}
+
+
+/* 响应式设置 */
+/* >1920px */
