@@ -6,21 +6,97 @@ created by xusihan
 /* 容器 */
 /* 默认 */
 .mycat-container {
-    width: 1400px;
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     padding:0;
 }
-
+.mycat-container-mid{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .bg-wrap{
-    background-image: url(../img/test.png);
+    background-image: url(../img/bg.jpg);
     background-size:cover;
+    background-position: center;
     position: relative;
     left: 0;
     top: 0;
-    height: 400px;
+    height: 820px;
+}
+.navbar-mycat{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-mycat a{
+    color: #fff;
+    font-size: 19px;
 }
 
-
+.navbar-mycat .nav-item  {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mycat-intro-wrap{
+    width: 720px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mycat-quickstart{
+    margin: 0;
+    padding: 0;
+}
+.btn-mycat{
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50px;
+    background: #fff;
+}
+.title-mycat {
+    color: #003366;
+}
+.title-mycat h1{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-size: 22px;
+}
+.title-mycat p{
+    font-size: 16px;
+}
+.mycat-perform-wrap{
+    width: 100%;
+    background-image: url("../img/bg-perform.jpg");
+}
+.mycat-perform-wrap .col{
+    margin: 0;
+}
+.mycat-partner-wrap{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+.mycat-partner-wrap .partner-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.mycat-partner-wrap .partner-title h1{
+    font-size: 24px;
+}
+.mycat-partner-wrap .partner-title p{
+    font-size: 16px;
+    margin: 5px;
+}
+.mycat-partner-icon{
+   padding-bottom: 40px;
+}
 /* 响应式设置 */
 /* >1920px */
+@media (min-width: 1920px) {
+    .navbar-mycat .nav-item{
+        position: relative;
+        left: -45px;
+    }
+}
